@@ -606,7 +606,3 @@ Use quoting to build up code instead of calling `list` and `sym`.
 Based on the [Lisp Style Guide](http://mumble.net/~campbell/scheme/style.txt)
 by Taylor R. Campbell
 
-[1]: https://git.sr.ht/~technomancy/fnlfmt
-[2]: https://blog.janestreet.com/whats-in-a-name/
-[3]: https://jacobian.org/2009/nov/10/what-to-write/
-[4]: https://fennel-lang.org/values

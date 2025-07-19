@@ -1,17 +1,7 @@
-# Fennel
+# Beetroot
 
-[Fennel][1] is a lisp that compiles to Lua. It aims to be easy to use,
-expressive, and has almost zero overhead compared to writing Lua directly.
+Beetroot is a fork of the [Fennel programming language](https://fennel-lang.org/)
 
-* *Full Lua compatibility* - You can use any function or library from Lua.
-* *Zero overhead* - Compiled code should be just as efficient as hand-written Lua.
-* *Compile-time macros* - Ship compiled code with no runtime dependency on Fennel.
-* *Embeddable* - Fennel is a one-file library as well as an executable. Embed it in other programs to support runtime extensibility and interactive development.
-
-At [https://fennel-lang.org][1] there's a live in-browser repl you can
-use without installing anything. At [https://fennel-lang.org/see][3]
-you can see what Lua output a given piece of Fennel compiles to, or
-what the equivalent Fennel for a given piece of Lua would be.
 
 ## Documentation
 
@@ -26,9 +16,6 @@ what the equivalent Fennel for a given piece of Lua would be.
   pointers to further details
 
 For more examples, see [the cookbook][2] on [the wiki][7].
-
-The [changelog](changelog.md) has a list of user-visible changes for
-each release.
 
 ## Example
 
@@ -101,7 +88,7 @@ Lua is much more readily-available than it is for Fennel.
 This requires GNU Make and Lua (5.1-5.4 or LuaJIT).
 
 1. `cd` to a directory in which you want to download Fennel, such as `~/src`
-2. Run `git clone https://git.sr.ht/~technomancy/fennel`
+2. Run `git clone https://github.com/abradley2/beetroot.git`
 3. Run `cd fennel`
 4. Run `make fennel` to create a standalone script called `fennel`
 5. Run `sudo make install` to install system-wide (or `make install
@@ -112,8 +99,6 @@ If you don't have Lua already installed on your system, you can run
 that has its own internal version of Lua. This requires having a C
 compiler installed; normally `gcc`.
 
-See the [contributing guide](CONTRIBUTING.md) for details about how to
-work on the source.
 
 ## License
 
@@ -128,13 +113,3 @@ The file `style.txt` is copyright © 2007-2011 Taylor R. Campbell,
 Creative Commons Attribution-NonCommercial-ShareAlike 3.0
 Unported License: https://creativecommons.org/licenses/by-nc-sa/3.0/
 
-[1]: https://fennel-lang.org
-[2]: https://dev.fennel-lang.org/wiki/Cookbook
-[3]: https://fennel-lang.org/see
-[4]: http://luajit.org/ext_ffi_tutorial.html
-[5]: https://lists.sr.ht/%7Etechnomancy/fennel
-[7]: https://dev.fennel-lang.org/
-[8]: https://builds.sr.ht/~technomancy/fennel
-[9]: https://libera.chat
-[10]: https://matrix.to/#/!rnpLWzzTijEUDhhtjW:matrix.org?via=matrix.org
-[11]: https://dev.fennel-lang.org/report/1
